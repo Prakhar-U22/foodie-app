@@ -12,7 +12,7 @@ export default function Signup() {
 
   const handleOnChange = async (e) => {
     e.preventDefault();
-    const response = await fetch("http://localhost:5000/api/createUser", {
+    const response = await fetch("https://foodie-backend-zp89.onrender.com/api/createUser", {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

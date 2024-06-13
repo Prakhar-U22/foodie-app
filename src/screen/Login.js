@@ -12,7 +12,7 @@ export default function Login() {
   const onSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/api/loginUser", {
+      const response = await fetch("https://foodie-backend-zp89.onrender.com/api/loginUser", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
